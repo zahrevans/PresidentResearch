@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #1f1f1f;
+    padding: 10px 15px;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #e0e0e0;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: #bb86fc !important;
+  }
+  
+  .navbar-toggler-icon {
+    color: #e0e0e0;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("imgs/Warren-G.-Harding.png");
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 0px 10px #000000;
+  }
+  
+  .Name {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .PresdientNum {
+    font-size: 1.5rem;
+  }
+  
+  .card {
+    background-color: #1f1f1f;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e0e0e0;
+  }
+  
+  .card ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    list-style: none;
+    color: #b0b0b0;
+  }
+  
+ 
