@@ -25,7 +25,7 @@ body {
   }
   
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("imgs/Warren-G.-Harding.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("aj.png");
     height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
