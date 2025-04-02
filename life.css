@@ -137,7 +137,7 @@ h1 {
 
 .timeline ol li.in-view .time-wrapper::after {
   transition-delay: 0.8s;
-  transform: scale(1.5);
+  transform: scale(1);
 }
 
 .timeline ol li.in-view time,
@@ -147,15 +147,15 @@ h1 {
 }
 
 .timeline ol li.in-view time {
-  transition-delay: 1.3s;
+  transition-delay: 0.5s;
 }
 
 .timeline ol li.in-view .details h3 {
-  transition-delay: 1.5s;
+  transition-delay: 0.5s;
 }
 
 .timeline ol li.in-view .details p {
-  transition-delay: 1.7s;
+  transition-delay: 0.5s;
 }
 
 /* MQ STYLES
@@ -183,11 +183,11 @@ h1 {
   }
 
   .timeline ol li.in-view .details h3 {
-    transition-delay: 0.7s;
+    transition-delay: 0.5s;
   }
 
   .timeline ol li.in-view .details p {
-    transition-delay: 0.9s;
+    transition-delay: 0.45s;
   }
 }
 
