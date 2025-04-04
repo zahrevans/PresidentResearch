@@ -7,6 +7,32 @@
     crossorigin="anonymous"
   />
   <link rel="stylesheet" href="dd.css" />
+  <!--Scroll Animations-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Oleo+Script:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+    rel="stylesheet"
+  />
   <header>
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
@@ -41,7 +67,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="quiz.html">Dig Deeper</a>
+              <a class="nav-link" href="ddeeper.html">Dig Deeper</a>
             </li>
           </ul>
         </div>
@@ -54,9 +80,44 @@
       <!-- place navbar here -->
     </header>
     <main>
+      <h1>Scroll for more Information</h1>
+      <div data-aos="fade-right"><h3>Failed Assassination</h3></div>
+      <br /><br />
+      <div class="container-fluid" data-aos="flip-left">
+        <!-- Early Life -->
+        <div class="row text-center d-flex justify-content-center py-2">
+          <div
+            class="col-12 col-md-4 d-flex align-items-center animate__animated animate__lightSpeedInLeft"
+          >
+            <div>
+              <p>
+                ANDREW JACKSON, JAN. 1835, IN MIDST OF BANKING WAR, PRESIDENT
+                JACKSON SURVIVED AN ASSASSINATION ATTEMPT; (A MAN, AT POINT
+                BLANK RANGE, ATTEMPTED TO FIRE TWO PISTOLS, BUT GUNS MISFIRED)
+              </p>
+            </div>
+          </div>
 
-
-        
+          <div
+            class="col-12 col-md-4 animate__animated animate__lightSpeedInRight"
+          >
+            <div>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/pWb99v07zjE?si=SfoCj0AR0IREA8V9"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      
     </main>
     <footer>
       <!-- place footer here -->
@@ -73,5 +134,9 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -1,24 +1,57 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #121212;
-    color: #e0e0e0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar {
-    background-color: #1f1f1f;
-    padding: 10px 15px;
-  }
-  
-  .navbar-brand, .nav-link {
-    color: #e0e0e0;
-  }
-  
-  .nav-link:hover, .nav-link.active {
-    color: #bb86fc !important;
-  }
-  
-  .navbar-toggler-icon {
-    color: #e0e0e0;
-  }
+  font-family: "Arial", sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1f1f1f;
+  padding: 10px 15px;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #e0e0e0;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #bb86fc !important;
+}
+
+.navbar-toggler-icon {
+  color: #e0e0e0;
+}
+
+h1 {
+  color: white;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: "Edu SA Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-left: 1%;
+}
+
+.mb-3 {
+  font-size: 40px;
+}
+p {
+  color: white;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
