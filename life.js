@@ -1,3 +1,5 @@
+//js for timeline (not mine)
+
 const targets = document.querySelectorAll(".timeline ol li");
 const threshold = 0.5;
 const ANIMATED_CLASS = "in-view";
