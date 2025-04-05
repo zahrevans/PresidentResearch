@@ -1,6 +1,4 @@
-
 (function () {
-    // Functions
     function buildQuiz() {
         const output = [];
 
@@ -27,14 +25,6 @@
         quizContainer.innerHTML = output.join('');
     }
 
-    function checkAnswer(question, response) {
-        if (response === question.correctAnswer) {
-            score++;
-        } else {
-            alert('The correct answer is: ' + question.answers[question.correctAnswer]);
-        }
-    }
-
     function showResults() {
         const answerContainers = quizContainer.querySelectorAll('.answers');
         score = 0;
@@ -44,12 +34,25 @@
             const selector = `input[name=question${questionNumber}]:checked`;
             const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
-            checkAnswer(currentQuestion, userAnswer);
+            const labels = answerContainer.querySelectorAll("label");
 
             if (userAnswer === currentQuestion.correctAnswer) {
-                answerContainer.style.color = 'lightgreen';
+                score++;
+                labels.forEach(label => {
+                    const input = label.querySelector("input");
+                    if (input.value === currentQuestion.correctAnswer) {
+                        label.style.color = 'lightgreen';
+                    }
+                });
             } else {
-                answerContainer.style.color = 'red';
+                labels.forEach(label => {
+                    const input = label.querySelector("input");
+                    if (input.value === userAnswer) {
+                        label.style.color = 'red';
+                    } else if (input.value === currentQuestion.correctAnswer) {
+                        label.style.color = 'lightgreen';
+                    }
+                });
             }
         });
 
@@ -74,10 +77,10 @@
         showSlide(currentSlide - 1);
     }
 
-    // Variables
     const quizContainer = document.getElementById('quiz');
     const resultsContainer = document.getElementById('results');
     const submitButton = document.getElementById('submit');
+
     const myQuestions = [
         {
             question: "Who invented JavaScript?",
