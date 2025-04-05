@@ -83,54 +83,54 @@
 
     const myQuestions = [
         {
-            question: "Who invented JavaScript?",
+            question: "What political party was jackson a part of?",
             answers: {
-                a: "Douglas Crockford",
-                b: "Sheryl Sandberg",
-                c: "Brendan Eich",
-                d: "Tim Berners-Lee"
+                a: "Green",
+                b: "Democrat",
+                c: "Republican",
+                d: "Whig"
             },
-            correctAnswer: "c"
+            correctAnswer: "b"
         },
         {
-            question: "Which one of these is a JavaScript package manager?",
+            question: "What year was Andrew Jackson Born?",
             answers: {
-                a: "Node.js",
-                b: "TypeScript",
-                c: "npm",
-                d: "Python"
+                a: "1767",
+                b: "1766",
+                c: "1768",
+                d: "1804"
             },
-            correctAnswer: "c"
+            correctAnswer: "a"
         },
         {
-            question: "Which tool can you use to ensure code quality?",
+            question: "Where was Andrew Jackson Born?",
             answers: {
-                a: "Angular",
-                b: "jQuery",
-                c: "RequireJS",
-                d: "ESLint"
+                a: "Marlboro",
+                b: "Los Angelas",
+                c: "Hawaii",
+                d: "Waxhaws"
             },
             correctAnswer: "d"
         },
         {
-            question: "q3",
+            question: "What number president was Jackson?",
             answers: {
-                a: "1",
-                b: "2",
-                c: "3",
-                d: "4"
+                a: "5",
+                b: "6",
+                c: "7",
+                d: "8"
             },
-            correctAnswer: "b"
+            correctAnswer: "c"
         },
         {
-            question: "q4",
+            question: "How many terms did Jackson serve?",
             answers: {
-                a: "1",
-                b: "2",
-                c: "3",
+                a: "0, he was never a president",
+                b: "1",
+                c: "2",
                 d: "4"
             },
-            correctAnswer: "b"
+            correctAnswer: "c"
         }
     ];
 
